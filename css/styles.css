@@ -1,0 +1,195 @@
+
+/* Górny pasek strony - logo */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.first-word {
+    color: #2196F3;
+}
+.second-word {
+    color: #000000;
+}
+
+/* Górny pasek strony - agencja, portfolio, kontakt */
+
+.menu > li {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    list-style: none;
+}
+
+.menu .link {
+    color: #212121;
+}
+
+.menu .link:hover,
+.menu .link:focus {
+    color: #2196F3;
+}
+
+/* Górny pasek strony - mail i tel */
+
+a {
+    text-decoration: none;
+}
+
+.contact .link {
+    color:#757575;
+}
+.contact .link:hover,
+.contact .link:focus {
+    color: #2196F3;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+
+/* Strona główna - slogan + przycisk */
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 44px;
+    letter-spacing: 0.06em;
+    line-height: 1.4;
+}
+.main-slogan {
+    background-color:#2F303A;
+}
+
+.main-button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.main-button:hover,
+.main-button:focus {
+    background-color: #FFFFFF;
+    color: #2196F3;
+}
+
+/* Strona główna - 4 kolumy tekstu */
+
+.text {
+    list-style: none;
+}
+h3 {
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 00.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* Storna główna - czym się zajmujemy + nasz zespół */
+
+h2 {
+    font-size: 36px;
+    color: #212121;
+    text-align: center;
+    letter-spacing: 00.03em;
+}
+
+.work {
+    list-style: none;
+}
+
+.our-workers {
+    background-color: #F5F4FA;
+}
+.workers {
+    list-style: none;
+}
+h3.text {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.profession {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* Strona portfolio - przyciski */
+
+button {
+    background-color: #F5F4FA;
+    cursor: pointer;
+    color:#212121;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+
+}
+.button-list {
+    list-style: none;
+}
+
+.button-list .link:hover,
+.button-list .link:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+/* Strona portfolio - obrazki */
+
+.img {
+    list-style: none;
+}
+
+.img h3 {
+    font-size: 18px;
+    text-transform: none;
+    letter-spacing: 0.06em;
+}
+
+.category {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color:#757575
+}
+
+/* Stopka */
+
+footer {
+    background-color: #2F303A;
+}
+
+.contact {
+    list-style: none;
+    font-size: 14px;
+}
+footer .second-word {
+    color: #FFFFFF;
+}
+footer {
+
+    color: #FFFFFF;
+}
+address {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
